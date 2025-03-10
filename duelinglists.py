@@ -18,3 +18,18 @@
 #Player two's highest number is 8 at index 1
 #Player one's lowest number is 1 at index 4
 #Player two's lowest number is 1 at index 5
+
+import random
+
+def generate_random_list(length):
+    random_list = []
+    for x in range(length):
+        random_list.append(random.randint(1,50))
+        return random_list
+    
+    Player1 = generate_random_list(10)
+    print(Player1)
+
+
+
+
